@@ -11,6 +11,14 @@
 # 6
 # -> 5
 
-lisy_length = int(input('Введите длину списка: '))
+list_length = int(input('Введите длину списка: '))
 number = int(input('Введите число: '))
 list = []
+total_number = 0
+
+
+
+print(list_length)
+print(list)
+print(number)
+print(total_number)
