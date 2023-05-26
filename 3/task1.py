@@ -10,16 +10,19 @@
 # -> 1
 
 from random import randint
-number = int(input('Введите длину массива: '))
-total_number =int(input('Введите число, которое хотети найти: '))
+
+list_length = int(input('Введите длину массива: '))
+number = int(input('Введите число, которое хотети найти: '))
 list = []
 number_count = 0
-for i in range (number):
-    number = randint(1,10)
-    list.append(number)
-    if number == total_number:
-        number_count+=1
+
+for i in range(list_length):
+    list_length = randint(1,10)
+    list.append(list_length)
+    if list_length == number:
+        number_count += 1
     else:
-        number_count+=0
-print(list)
+        number_count += 0
+
+print (list)
 print(number_count)
