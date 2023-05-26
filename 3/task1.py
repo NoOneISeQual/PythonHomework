@@ -9,8 +9,11 @@
 # 3
 # -> 1
 
-
+from random import randint
 number = int(input('Введите длину массива: '))
 total_number =int(input('Введите число, которое хотети найти: '))
 list = []
 number_count = 0
+for i in range (number):
+    number = randint(1,10)
+    list.append(number)
