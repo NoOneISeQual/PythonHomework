@@ -12,6 +12,7 @@
 from random import randint
 
 list_length = int(input('Введите длину списка: '))
+
 number = int(input('Введите число, которое хотети найти: '))
 list = []
 number_count = 0
@@ -23,6 +24,7 @@ for i in range(list_length):
         number_count += 1
     else:
         number_count += 0
-
+print(list_length)
 print (list)
+print(number)
 print(number_count)
