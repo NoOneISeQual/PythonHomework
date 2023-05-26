@@ -17,3 +17,4 @@ number_count = 0
 for i in range (number):
     number = randint(1,10)
     list.append(number)
+print(list)
