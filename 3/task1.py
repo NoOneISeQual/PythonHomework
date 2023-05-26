@@ -17,4 +17,9 @@ number_count = 0
 for i in range (number):
     number = randint(1,10)
     list.append(number)
+    if number == total_number:
+        number_count+=1
+    else:
+        number_count+=0
 print(list)
+print(number_count)
