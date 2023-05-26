@@ -11,12 +11,16 @@
 # 6
 # -> 5
 
+from random import randint
+
 list_length = int(input('Введите длину списка: '))
 number = int(input('Введите число: '))
 list = []
 total_number = 0
 
-
+for i in range(list_length):
+    list_length = randint(1,10)
+    list.append(list_length)
 
 print(list_length)
 print(list)
