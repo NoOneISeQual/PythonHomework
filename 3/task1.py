@@ -11,7 +11,7 @@
 
 from random import randint
 
-list_length = int(input('Введите длину массива: '))
+list_length = int(input('Введите длину списка: '))
 number = int(input('Введите число, которое хотети найти: '))
 list = []
 number_count = 0

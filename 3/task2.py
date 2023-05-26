@@ -11,3 +11,5 @@
 # 6
 # -> 5
 
+lisy_length = int(input('Введите длину '))
+list = []
