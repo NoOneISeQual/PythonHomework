@@ -14,17 +14,18 @@ from random import randint
 list_length = int(input('Введите длину списка: '))
 
 number = int(input('Введите число, которое хотети найти: '))
-list = []
+my_list = []
 number_count = 0
 
 for i in range(list_length):
-    list_length = randint(1,10)
-    list.append(list_length)
-    if list_length == number:
+    temp = randint(1,10)
+    my_list.append(temp)
+    if temp == number:
         number_count += 1
     else:
         number_count += 0
+
 print(list_length)
-print (list)
+print (my_list)
 print(number)
-print(number_count)
+print(f'Число встречается {number_count} раз')

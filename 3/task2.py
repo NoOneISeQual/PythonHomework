@@ -15,14 +15,25 @@ from random import randint
 
 list_length = int(input('Введите длину списка: '))
 number = int(input('Введите число: '))
-list = []
+my_list = list()
 total_number = 0
+min = 0
+max = 0
 
 for i in range(list_length):
-    list_length = randint(1,10)
-    list.append(list_length)
+    my_list.append(randint(1,10))
+    if my_list[i] == number:
+        total_number = my_list[i]
+    
+        
+        
+
+
+        
+
+    
 
 print(list_length)
-print(list)
+print(my_list)
 print(number)
 print(total_number)
