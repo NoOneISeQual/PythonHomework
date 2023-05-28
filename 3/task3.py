@@ -55,3 +55,4 @@ for i in word:
         if i in v:
             count += k
 
+print(f'Стоимоть введенного слова: {count}')
