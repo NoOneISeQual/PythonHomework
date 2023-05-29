@@ -20,5 +20,5 @@ for i in range(monet):
     if monet_0 < monet_1:
         total_monet = monet_0
     else:
-        total_monet =  monet_1
-print(f'минимально ко-во монет, которые нужно перевернуть составляет: {total_monet}')
+        total_monet = monet_1
+print(f'минимально кол-во монет, которые нужно перевернуть составляет: {total_monet}')
