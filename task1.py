@@ -5,3 +5,5 @@ def func(A_number, B_number):
     if B_number == 0:
         return 1 
     return A_number ** B_number
+
+print(func(A_number, B_number))
