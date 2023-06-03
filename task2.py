@@ -13,3 +13,5 @@ def rec_sum(a_number,b_number):
     if a_number == 0:
         return b_number
     return rec_sum(a_number -1,b_number +1)
+
+print(rec_sum(a_number,b_number))
