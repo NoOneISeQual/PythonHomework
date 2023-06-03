@@ -29,3 +29,5 @@ print(list_length)
 print (my_list)
 print(number)
 print(f'Число встречается {number_count} раз')
+
+# У  списков есть метод каунт my_list.count считает сколько раз встречается число

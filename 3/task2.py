@@ -15,17 +15,18 @@ from random import randint
 
 list_length = int(input('Введите длину списка: '))
 number = int(input('Введите число: '))
-my_list = list()
+my_list = []
 total_number = 0
 
 for i in range(list_length):
     my_list.append(randint(1,10))
-    if my_list[i] == number:
-        total_number = my_list[i]
-
-
-
+    for k in range(i):
+        if my_list[i] == number:
+            total_number = my_list[i]
+        
 print(list_length)
 print(my_list)
 print(number)
 print(total_number)
+
+#Abs модуль числа делает из отрицальных числе положительные 
